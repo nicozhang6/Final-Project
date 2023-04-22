@@ -1,1 +1,7 @@
-can you guys see this
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import rc
+from astroquery.gaia import Gaia
+from astroquery.ipac.nexsci.nasa_exoplanet_archive import NasaExoplanetArchive
+from astropy.table import Table
+from itertools import chain
